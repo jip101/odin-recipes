@@ -1,18 +1,35 @@
+body {
+    background-color: aquamarine;
+}
+
 h1 {
+    font-family:Arial, Helvetica, sans-serif ;
     color: red;
     text-align: center;
     background: yellow;
+    font-size: 6vw;
+    margin-top: 0%;
+    border-radius: 10px;
+}
+
+ul {
+    display: inline;
+    padding-inline-start: 8.5%;
 }
 
 li {
     display: inline-block;
+    float: none;
     color: green;
     border: 2px solid purple;
     text-align: center;
-    font-size: 1rem;
-    width: 16%;
+    font-size: 3vw;
+    width: 12%;
     white-space: nowrap;
-    word-wrap: break-word;
+    overflow-wrap: break-word;
+    justify-content: center;
+    padding: 2%;
+    background-color: white;
 }
 
 li:first-child {
@@ -29,4 +46,27 @@ li a{
 
 li a:hover {
     color: grey;
+}
+
+
+@media (max-width: 400px) or (orientation: portrait) {
+    ul {
+        display:grid;
+        width: 85%;
+        margin-left: 35%;
+    }
+
+    li {
+        font-size: 2.5vw;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    li:first-child {
+        border-radius: 10px;
+    }
+    
+    li:last-child {
+        border-radius: 10px;
+    }
+
 }
