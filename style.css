@@ -50,6 +50,14 @@ li a:hover {
     color: grey;
 }
 
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: .75em;
+}
+
 
 @media (max-width: 400px) or (orientation: portrait) {
     ul {
