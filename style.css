@@ -10,6 +10,10 @@ hr.top {
     margin-left: 0%;
 }
 
+hr {
+    border: 1px solid gray;
+}
+
 h1 {
     font-family:Arial, Helvetica, sans-serif ;
     color: black;
@@ -30,6 +34,7 @@ h1 {
     text-align: center;
     font-size: 1.5rem;
     padding-right: 5%;
+    margin-left: 6%;
 }
 
 ul.index {
@@ -59,9 +64,15 @@ li.index:last-child {
     border-radius: 0px 10px 10px 0px;
 }
 
-ol > li, h2 > ul, p {
-    width: 60%;
+ol, ul, h2, h4, p {
+    width: 80%;
 }
+
+p, li {
+    font-size: 1.2rem;
+}
+
+
 
 img {
     max-width: 200px;
