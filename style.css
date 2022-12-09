@@ -74,7 +74,7 @@ p, li {
 
 
 
-img {
+img:not(.wip) {
     max-width: 200px;
     max-height: 200px;
 }
